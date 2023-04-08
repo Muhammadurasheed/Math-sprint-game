@@ -14,7 +14,7 @@
 body {
   margin: 0;
   font-family: PT Mono, sans-serif;
-  overflow: scroll;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -64,7 +64,7 @@ input[type="radio"] {
 
 .selection-container {
   position: relative;
-  top: 65px;
+  top: 10px;
 }
 
 .radio-container {
@@ -109,7 +109,7 @@ label {
 }
 
 .selection-footer {
-  top: 134px;
+  top: 15px;
 }
 
 /* Game Page -------------------------- */
